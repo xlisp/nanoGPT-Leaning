@@ -2390,3 +2390,12 @@ Fith exten I will now love,
 ---------------
 (base) 坚持去λ化(中-易) nanoGPT-Leaning  master @
 
+## ------- train result ---------------
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @ du -sh data/shakespeare_char/meta.pkl
+4.0K	data/shakespeare_char/meta.pkl
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @ ls out-shakespeare-char
+ckpt.pt
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @ du -sh out-shakespeare-char/ckpt.pt
+ 10M	out-shakespeare-char/ckpt.pt
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @
+
