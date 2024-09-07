@@ -2183,3 +2183,210 @@ iter 2000: loss 1.6982, time 169.66ms, mfu 0.09%
 
 # --------------
 
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @ du -sh data/shakespeare_char/meta.pkl
+4.0K	data/shakespeare_char/meta.pkl
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @
+
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @ python sample.py --out_dir=out-shakespeare-char --device=mps
+Overriding: out_dir = out-shakespeare-char
+Overriding: device = mps
+/Users/emacspy/Desktop/nanoGPT-Leaning/sample.py:38: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(ckpt_path, map_location=device)
+number of parameters: 0.80M
+Loading meta from data/shakespeare_char/meta.pkl...
+
+Forstameds feet their Reep our mein him.
+
+HUMINIO:
+He that the she good my the doth?
+
+LONTES:
+Hake which it impery way ar he would, a sights
+That a didht thy will, well thou is of sulbust.
+
+MERCESCUSEN:
+From youl not your fajerit:
+And thus take thoe so preake for he give.
+Why, there you tees asure sold arrant
+And your made with thous my that prongmeries, who mut;
+And say sholl rechange as wongemant, and my roth.
+
+YUKE VINGIES:
+Whome and pors the bee my doed our chalt:
+But not thinke and the been
+---------------
+
+Is uper to death down it diding or orshephing.
+
+MUCINIUS:
+
+Hell-hust ond you, blery this He him of the in my be
+All the son, amrrance prown thou the father from bre;
+All the not armon'd as gate art with, broth off,
+Both the Sreation the peep on mare the see,
+Af ve in bilt would fortul, not cae, whough boul I seave fear
+The casous amence on proves sonder friends me,
+toment bries the the was of but I and sillow.
+
+GLUTER:
+
+Sencan:
+But thous sir, and thee weet of For was and hold to shame,
+The and h
+---------------
+
+God, Ormea:
+To not, and I wouldsent them with for moth soul.
+And the tendleoud feath fixtye longe,
+The prost enemy he while have thou soven the hone:
+As will such in the reverfing to the so of cause
+The can the stoon or how fauld! So me may,
+Sich had the count and nown to that and the underer a veen
+To the to well and on the was offerith the do ford's
+That a and the the fatter in his the reppree,
+End for is a gring fair it ear and flaate.
+
+GROMER:
+Well, that and thenle mone to hone the come in
+M
+---------------
+
+The seeps in word for forty devitecion.
+In evile the one their but
+Where plain a sapper! Barde brother's the dord.
+
+CLAUCES:
+No, the now, the say know, with would in,
+Or in on them fort an
+With ould to laves bote our thou with of tred of him?
+
+SGORIOL:
+For you you, and you gue it thee, the spoons,
+And are king all I thy Good have pautity fire would in
+This it. The past it hour with our a move hath fight
+That laies go to the weeld burry.
+
+BRORPETES:
+I all sway, for let heour.
+
+WARWICK:
+And Oupfor
+---------------
+
+Is rofer it all had all sleege a pity'st all not seed.
+For The at at grood me in him.
+
+ADUS:
+I shall swardant: I will their too eit we I may you
+At be when here mell, be for she part here.
+
+EENINIUS:
+
+NaUCIUS:
+The have whe sever wingh thought dive in telt be to nosel
+That the joy hough a grod unleud that this doth
+Warwith greace a fain mest to courtion as in Hath
+Baty vil notwing ale in brother, my or him all.
+
+NELINNIE:
+I w'll a dearl jud: the in barter thesh the hond.
+
+NORCESS:
+I I come gold,
+---------------
+
+Pord courly hath though a there;
+A gue ben the post of the heaves.
+The will fort, makle he shing it her bnistly.
+
+MENENIE:
+Say; I I would was deaciuseme well be you she noter,
+The inle to sheir beting of the and so in not
+Asrue deas mow she thilding, all stay; ay, and the is
+a seark the all by lant better as sould it wer our wich!
+
+SICINIUS:
+Will:
+Hus ve the pair thing to a moy hinel.
+Letchale thy latied the had but on the in rever
+I lood yen to good earth onge and oble dights.
+
+OMERCES:
+My nour
+---------------
+
+Lord'd faKing from and enn sigker in sleing flead;
+Which would for Malities from the me ain
+sube fight here, I I wear my the him, not sporty':
+At would in upren the that may were and prined that than
+To surum's swell do you seed or ese and when in
+Putsserigge.
+
+FrORTER:
+As thught adO-dair:
+Of the eye hum stand suck whebs thy be actcuse a gream
+Searnes you seach, how thou agart me a haw
+Woom faur the hand one to come apphare them heaver.
+
+CARIOLAND:
+Loe,
+A preas too do mate
+His on trail to be.
+
+S
+---------------
+
+Rome way, my kingly inderied, and nober thee to the shall,
+The me our son, in for not yeave is in of wary:
+O ssand beath wilen in the dowfer thy sould in the more
+Bust, for such red thou hinest rest of assemoned
+A gundedle so set their dingom'd with you
+He have hend his but tind daward not, apoter,
+The just, it is my not you with of the wee
+the stoon the sward that such hrow the it,
+And thou his of soruce no artmedly broth the on:
+What paid the gever the wost in wepracle him.
+
+CLAUT:
+That to a w
+---------------
+
+It this wee to course, to make is exericte think.
+
+GLAULET:
+Thou call long shalou him howard fellow didem to theed
+If no
+His fort in sight backed the have our coure,
+The and the in repones, the be will and thing they tonge:
+Of hath joy the for the lord.
+
+HENRY BALHARD:
+Tie of I we me not is a can.
+
+SOLERCE:
+I good the fair you; Gies, that as as the not with thought,
+in or loughing thing merry been a in at slaw have in,
+I we he sight, and the burs our pritie fing.
+
+JULET:
+That a throw love price
+---------------
+
+The not she? Forth a your the litt have look and
+That pars not the weas kenden what's as worn me.
+
+METES:
+I would that he mought you ove the confer,
+Ex me the not tholl be seem I of the shold
+An lose so: as you not werven my antunge lettle's arther,
+and lose the she his my lown a broth the fime
+treed in do hope have pleased envicese
+Which own the way seas sone be the mach.
+
+HESMINIE:
+Bee; wenmy as make and in it sarrabotous not't
+Sayton center. The thine poone my say,
+Fith exten I will now love,
+---------------
+(base) 坚持去λ化(中-易) nanoGPT-Leaning  master @
+
